@@ -1,6 +1,31 @@
 {
   "incidents": [
     {
+      "id": "inc-1789451597031",
+      "trackingNumber": "RSA-2026-9340",
+      "reporterId": "u-1",
+      "reporterName": "Ramesh Kumar (Track Inspector)",
+      "reporterRole": "Track Inspector",
+      "category": "Track damage or cracks",
+      "severity": "Critical",
+      "status": "Reported",
+      "latitude": 19.2312,
+      "longitude": 73.1205,
+      "trackKilometer": "KM 51/14 - 51/18 (Up Fast Line)",
+      "division": "Central Division",
+      "nearestStation": "Kalyan Junction (KYN)",
+      "distanceFromStationKm": 1.4,
+      "description": "Transverse fatigue crack detected on outer rail head during foot patrol. Visible gap and loose fishplate bolt.",
+      "mediaUrl": "https://images.unsplash.com/photo-1541888946425-d0fbb186c5f8?w=800&auto=format&fit=crop&q=80",
+      "aiAnalysis": null,
+      "assignedTeamId": null,
+      "assignedTeamName": null,
+      "createdAt": "2026-09-15T05:53:17.032Z",
+      "updatedAt": "2026-09-15T05:53:17.032Z",
+      "resolvedAt": null,
+      "escalatedToControlCenter": true
+    },
+    {
       "id": "inc-1789357585171",
       "trackingNumber": "RSA-2026-1744",
       "reporterId": "u-1",
@@ -192,7 +217,7 @@
       "reporterRole": "Track Inspector",
       "category": "Fallen trees or obstacles",
       "severity": "High",
-      "status": "In Progress",
+      "status": "Resolved",
       "latitude": 19.698,
       "longitude": 73.565,
       "trackKilometer": "KM 118/22 (Kasara Ghat Section)",
@@ -222,9 +247,15 @@
       "assignedTeamId": "team-2",
       "assignedTeamName": "Ghat Section Monsoon Gang-09",
       "createdAt": "2026-09-09T19:42:13.794Z",
-      "updatedAt": "2026-09-09T21:02:13.794Z",
-      "resolvedAt": null,
-      "escalatedToControlCenter": true
+      "updatedAt": "2026-09-15T05:54:54.227Z",
+      "resolvedAt": "2026-09-15T05:54:54.227Z",
+      "escalatedToControlCenter": true,
+      "repairEvidence": {
+        "afterPhotoUrl": "https://images.unsplash.com/photo-1541888946425-d0fbb186c5f8?w=800&auto=format&fit=crop&q=80",
+        "notes": "Track flaw ground flush, fishplates clamped, and Ultrasonic Flaw Detection (USFD) tested clear for full operational speed.",
+        "signedOffBy": "David Miller",
+        "completedAt": "2026-09-15T05:54:54.227Z"
+      }
     },
     {
       "id": "inc-4",
@@ -331,11 +362,11 @@
       "leadEngineer": "Sunil Patil",
       "crewSize": 12,
       "specialization": "Landslide Clearance & Rock Fall Mitigation",
-      "status": "Dispatched",
+      "status": "Available",
       "contactNumber": "+91 98224 81092",
       "currentLat": 19.698,
       "currentLng": 73.565,
-      "assignedIncidentId": "inc-3"
+      "assignedIncidentId": null
     },
     {
       "id": "team-3",
@@ -765,9 +796,297 @@
       "ipAddress": "::1",
       "previousHash": "90a19974f6fb8ea9c75fe87814063bddacc456118e06bb9ef7c51ede68e345ee",
       "recordHash": "3d1d77821f24e6845d59e9fb6c9201c809aab62bac91c433b619e4ca1b8478bf"
+    },
+    {
+      "id": "audit-1789451239595-s0zea",
+      "timestamp": "2026-09-15T05:47:19.595Z",
+      "employeeId": "IR-TI-1042",
+      "employeeName": "Ramesh Kumar",
+      "action": "USER_LOGIN_SUCCESS",
+      "details": "Authenticated as Track Inspector (Central Division) via secure OTP verification.",
+      "ipAddress": "::1",
+      "previousHash": "3d1d77821f24e6845d59e9fb6c9201c809aab62bac91c433b619e4ca1b8478bf",
+      "recordHash": "b5854a227c5cedf532f9b742d22a5952c592c0f684e0fdde3708c3d659482a60"
+    },
+    {
+      "id": "audit-1789451554478-n47sc",
+      "timestamp": "2026-09-15T05:52:34.478Z",
+      "employeeId": "IR-TI-1042",
+      "employeeName": "Ramesh Kumar",
+      "action": "USER_LOGIN_SUCCESS",
+      "details": "Authenticated as Track Inspector (Central Division) via secure OTP verification.",
+      "ipAddress": "::1",
+      "previousHash": "b5854a227c5cedf532f9b742d22a5952c592c0f684e0fdde3708c3d659482a60",
+      "recordHash": "bdae7f7c96cb5fe3226b689f47e8be56f44c473e37e6fb52f968158c8f21bd6f"
+    },
+    {
+      "id": "audit-1789451597034-cjvwy",
+      "timestamp": "2026-09-15T05:53:17.034Z",
+      "employeeId": "IR-TI-1042",
+      "employeeName": "Ramesh Kumar",
+      "action": "INCIDENT_REPORTED",
+      "details": "Reported Critical incident RSA-2026-9340 [Track damage or cracks] at KM 51/14 - 51/18 (Up Fast Line)",
+      "ipAddress": "::1",
+      "previousHash": "bdae7f7c96cb5fe3226b689f47e8be56f44c473e37e6fb52f968158c8f21bd6f",
+      "recordHash": "f4a385b33147135ba1419e5c98f555b861ec9aace6f2c83f5b297f0217e67fb0"
+    },
+    {
+      "id": "audit-1789451611127-y3z03",
+      "timestamp": "2026-09-15T05:53:31.127Z",
+      "employeeId": "IR-SM-2091",
+      "employeeName": "Priya Sharma",
+      "action": "USER_LOGIN_SUCCESS",
+      "details": "Authenticated as Station Master (Central Division) via secure OTP verification.",
+      "ipAddress": "::1",
+      "previousHash": "f4a385b33147135ba1419e5c98f555b861ec9aace6f2c83f5b297f0217e67fb0",
+      "recordHash": "341a7add61d0f6f739d23c6a178edcde51b765dbcface051b8e12b714d153f6a"
+    },
+    {
+      "id": "audit-1789451659517-mb7h6",
+      "timestamp": "2026-09-15T05:54:19.517Z",
+      "employeeId": "IR-MT-3084",
+      "employeeName": "David Miller",
+      "action": "USER_LOGIN_SUCCESS",
+      "details": "Authenticated as Maintenance Team (Central Division) via secure OTP verification.",
+      "ipAddress": "::1",
+      "previousHash": "341a7add61d0f6f739d23c6a178edcde51b765dbcface051b8e12b714d153f6a",
+      "recordHash": "9f03a5f679a8063f6ddb5336e1a15fa69013c81f98486ca7dd4d4f5518cfbd0d"
+    },
+    {
+      "id": "audit-1789451694229-l8q7b",
+      "timestamp": "2026-09-15T05:54:54.229Z",
+      "employeeId": "IR-MT-3084",
+      "employeeName": "David Miller",
+      "action": "MAINTENANCE_COMPLETED_RESOLVED",
+      "details": "Incident RSA-2026-0409 resolved. Evidence photo uploaded and certified by David Miller.",
+      "ipAddress": "::1",
+      "previousHash": "9f03a5f679a8063f6ddb5336e1a15fa69013c81f98486ca7dd4d4f5518cfbd0d",
+      "recordHash": "3f60176e64f03646c0f25ea8411a445ce96d8899477a9c2e399992adf3498c41"
+    },
+    {
+      "id": "audit-1789451958212-vyao9",
+      "timestamp": "2026-09-15T05:59:18.212Z",
+      "employeeId": "IR-TI-1042",
+      "employeeName": "Ramesh Kumar",
+      "action": "USER_LOGIN_SUCCESS",
+      "details": "Authenticated as Track Inspector (Central Division) via secure OTP verification.",
+      "ipAddress": "::1",
+      "previousHash": "3f60176e64f03646c0f25ea8411a445ce96d8899477a9c2e399992adf3498c41",
+      "recordHash": "52135011645e37ced2fe48cae9454dbef3024b1aeb3287ecddb02298d66f0e6f"
+    },
+    {
+      "id": "audit-1789452286297-lyziv",
+      "timestamp": "2026-09-15T06:04:46.297Z",
+      "employeeId": "IR-TI-1042",
+      "employeeName": "Ramesh Kumar",
+      "action": "AI_DEFECT_SCAN_PERFORMED",
+      "details": "Neural network CV defect scan detected: Track Alignment Slew / Thermal Buckling (90.0% confidence, Severity: Medium).",
+      "ipAddress": "::1",
+      "previousHash": "52135011645e37ced2fe48cae9454dbef3024b1aeb3287ecddb02298d66f0e6f",
+      "recordHash": "0d33227e2b107f1df36460d9e0dfbe970bab266b4cfab75f7b07b0448a50b200"
+    },
+    {
+      "id": "audit-1789452428149-gly5v",
+      "timestamp": "2026-09-15T06:07:08.149Z",
+      "employeeId": "IR-TI-1042",
+      "employeeName": "Ramesh Kumar",
+      "action": "AI_DEFECT_SCAN_PERFORMED",
+      "details": "Neural network CV defect scan detected: Track Ballast Submergence & Waterlogging (92.0% confidence, Severity: High).",
+      "ipAddress": "::1",
+      "previousHash": "0d33227e2b107f1df36460d9e0dfbe970bab266b4cfab75f7b07b0448a50b200",
+      "recordHash": "d86bb077b0c0907059d13ca7c13fca76cd0bd0b05f4e44a68a0b999cf3e3f19e"
+    },
+    {
+      "id": "audit-1789452429389-qriyk",
+      "timestamp": "2026-09-15T06:07:09.389Z",
+      "employeeId": "IR-TI-1042",
+      "employeeName": "Ramesh Kumar",
+      "action": "AI_DEFECT_SCAN_PERFORMED",
+      "details": "Neural network CV defect scan detected: Transverse Rail Head Fracture (96.0% confidence, Severity: Critical).",
+      "ipAddress": "::1",
+      "previousHash": "d86bb077b0c0907059d13ca7c13fca76cd0bd0b05f4e44a68a0b999cf3e3f19e",
+      "recordHash": "7459aaf374ab2c880032d84007378352570a78d15dab8baff7ebd475c09b5f79"
+    },
+    {
+      "id": "audit-1789452893914-bx556",
+      "timestamp": "2026-09-15T06:14:53.914Z",
+      "employeeId": "IR-SM-2091",
+      "employeeName": "Priya Sharma",
+      "action": "USER_LOGIN_SUCCESS",
+      "details": "Authenticated as Station Master (Central Division) via secure OTP verification.",
+      "ipAddress": "::1",
+      "previousHash": "7459aaf374ab2c880032d84007378352570a78d15dab8baff7ebd475c09b5f79",
+      "recordHash": "d452ef68102fa8a07acbb233311cc4881b5cc2accb3864230b98cf50fbcf6b26"
+    },
+    {
+      "id": "audit-1789452897255-focje",
+      "timestamp": "2026-09-15T06:14:57.255Z",
+      "employeeId": "IR-TI-1042",
+      "employeeName": "Ramesh Kumar",
+      "action": "USER_LOGIN_SUCCESS",
+      "details": "Authenticated as Track Inspector (Central Division) via secure OTP verification.",
+      "ipAddress": "::1",
+      "previousHash": "d452ef68102fa8a07acbb233311cc4881b5cc2accb3864230b98cf50fbcf6b26",
+      "recordHash": "db113ee12ea5d743771231188b6f800f4c066ea460c6a9448bff28b23fe44349"
+    },
+    {
+      "id": "audit-1789452899377-4nmyg",
+      "timestamp": "2026-09-15T06:14:59.377Z",
+      "employeeId": "IR-AD-4001",
+      "employeeName": "Dr. Rajesh Verma",
+      "action": "USER_LOGIN_SUCCESS",
+      "details": "Authenticated as Railway Administrator (Railway Board HQ) via secure OTP verification.",
+      "ipAddress": "::1",
+      "previousHash": "db113ee12ea5d743771231188b6f800f4c066ea460c6a9448bff28b23fe44349",
+      "recordHash": "30d8f86231e17f4e18cece225e2ed47a88910d4b3755f01b1e050a10418c35ac"
     }
   ],
   "smsAlertLogs": [
+    {
+      "id": "alert-1789452899361-23h2i",
+      "timestamp": "2026-09-15T06:14:59.361Z",
+      "recipients": [
+        "+91 98111 88990",
+        "rajesh.verma@railways.gov.in"
+      ],
+      "channel": "SMS_GATEWAY",
+      "message": "RailSafe Alert: Your login OTP is 849201. Valid for 10 minutes. Do not share with unauthorized persons.",
+      "severity": "Normal",
+      "status": "DELIVERED",
+      "networkLatencyMs": 69
+    },
+    {
+      "id": "alert-1789452897242-cuejr",
+      "timestamp": "2026-09-15T06:14:57.242Z",
+      "recipients": [
+        "+91 98201 44521",
+        "ramesh.kumar@railways.gov.in"
+      ],
+      "channel": "SMS_GATEWAY",
+      "message": "RailSafe Alert: Your login OTP is 849201. Valid for 10 minutes. Do not share with unauthorized persons.",
+      "severity": "Normal",
+      "status": "DELIVERED",
+      "networkLatencyMs": 91
+    },
+    {
+      "id": "alert-1789452893899-gfmy1",
+      "timestamp": "2026-09-15T06:14:53.899Z",
+      "recipients": [
+        "+91 98210 77144",
+        "priya.sharma@railways.gov.in"
+      ],
+      "channel": "SMS_GATEWAY",
+      "message": "RailSafe Alert: Your login OTP is 849201. Valid for 10 minutes. Do not share with unauthorized persons.",
+      "severity": "Normal",
+      "status": "DELIVERED",
+      "networkLatencyMs": 79
+    },
+    {
+      "id": "alert-1789451958203-gdnwo",
+      "timestamp": "2026-09-15T05:59:18.203Z",
+      "recipients": [
+        "+91 98201 44521",
+        "ramesh.kumar@railways.gov.in"
+      ],
+      "channel": "SMS_GATEWAY",
+      "message": "RailSafe Alert: Your login OTP is 849201. Valid for 10 minutes. Do not share with unauthorized persons.",
+      "severity": "Normal",
+      "status": "DELIVERED",
+      "networkLatencyMs": 120
+    },
+    {
+      "id": "alert-1789451958195-lc7rv",
+      "timestamp": "2026-09-15T05:59:18.195Z",
+      "recipients": [
+        "+91 98201 44521",
+        "ramesh.kumar@railways.gov.in"
+      ],
+      "channel": "SMS_GATEWAY",
+      "message": "RailSafe Alert: Your login OTP is 849201. Valid for 10 minutes. Do not share with unauthorized persons.",
+      "severity": "Normal",
+      "status": "DELIVERED",
+      "networkLatencyMs": 61
+    },
+    {
+      "id": "alert-1789451659489-gi2s0",
+      "timestamp": "2026-09-15T05:54:19.489Z",
+      "recipients": [
+        "+91 98332 19043",
+        "david.miller@railways.gov.in"
+      ],
+      "channel": "SMS_GATEWAY",
+      "message": "RailSafe Alert: Your login OTP is 849201. Valid for 10 minutes. Do not share with unauthorized persons.",
+      "severity": "Normal",
+      "status": "DELIVERED",
+      "networkLatencyMs": 100
+    },
+    {
+      "id": "alert-1789451611096-y9ah0",
+      "timestamp": "2026-09-15T05:53:31.096Z",
+      "recipients": [
+        "+91 98210 77144",
+        "priya.sharma@railways.gov.in"
+      ],
+      "channel": "SMS_GATEWAY",
+      "message": "RailSafe Alert: Your login OTP is 849201. Valid for 10 minutes. Do not share with unauthorized persons.",
+      "severity": "Normal",
+      "status": "DELIVERED",
+      "networkLatencyMs": 126
+    },
+    {
+      "id": "alert-1789451597036-qbsx1",
+      "timestamp": "2026-09-15T05:53:17.036Z",
+      "incidentId": "inc-1789451597031",
+      "recipients": [
+        "Loco-Pilots on Section",
+        "Station Master (Kalyan Junction (KYN))",
+        "Lead: Amit Saxena (2.1 km away)"
+      ],
+      "channel": "RADIO_TRAIN_CONTROL",
+      "message": "EMERGENCY ALERT [Critical]: Track damage or cracks reported at KM 51/14 - 51/18 (Up Fast Line). Track section affected. Nearest team: Signal & Telecommunication Unit-2.",
+      "severity": "Critical",
+      "status": "DELIVERED",
+      "networkLatencyMs": 56
+    },
+    {
+      "id": "alert-1789451551697-wrceo",
+      "timestamp": "2026-09-15T05:52:31.697Z",
+      "recipients": [
+        "+91 98201 44521",
+        "ramesh.kumar@railways.gov.in"
+      ],
+      "channel": "SMS_GATEWAY",
+      "message": "RailSafe Alert: Your login OTP is 849201. Valid for 10 minutes. Do not share with unauthorized persons.",
+      "severity": "Normal",
+      "status": "DELIVERED",
+      "networkLatencyMs": 59
+    },
+    {
+      "id": "alert-1789451239583-53job",
+      "timestamp": "2026-09-15T05:47:19.583Z",
+      "recipients": [
+        "+91 98201 44521",
+        "ramesh.kumar@railways.gov.in"
+      ],
+      "channel": "SMS_GATEWAY",
+      "message": "RailSafe Alert: Your login OTP is 849201. Valid for 10 minutes. Do not share with unauthorized persons.",
+      "severity": "Normal",
+      "status": "DELIVERED",
+      "networkLatencyMs": 144
+    },
+    {
+      "id": "alert-1789451239575-cltgd",
+      "timestamp": "2026-09-15T05:47:19.575Z",
+      "recipients": [
+        "+91 98201 44521",
+        "ramesh.kumar@railways.gov.in"
+      ],
+      "channel": "SMS_GATEWAY",
+      "message": "RailSafe Alert: Your login OTP is 849201. Valid for 10 minutes. Do not share with unauthorized persons.",
+      "severity": "Normal",
+      "status": "DELIVERED",
+      "networkLatencyMs": 91
+    },
     {
       "id": "alert-1789381849095-djpph",
       "timestamp": "2026-09-14T10:30:49.095Z",
@@ -1404,5 +1723,5 @@
       "networkLatencyMs": 138
     }
   ],
-  "savedAt": "2026-09-14T10:30:49.137Z"
+  "savedAt": "2026-09-15T06:14:59.377Z"
 }
