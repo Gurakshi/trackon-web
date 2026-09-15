@@ -83,7 +83,7 @@ const PORT = process.env.PORT || 5000;
 server.listen(PORT, () => {
   console.log(`=======================================================`);
   console.log(`  RailSafe Alert Backend Engine LIVE on Port ${PORT}`);
-  console.log(`  REST API: http://localhost:${PORT}/api`);
+  console.log(`  REST API: https://trackon-web-backend-ctms.onrender.com${PORT}/api`);
   console.log(`  Real-Time WebSockets: Active (Socket.IO)`);
   console.log(`=======================================================`);
 });
